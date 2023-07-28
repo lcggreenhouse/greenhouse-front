@@ -12,7 +12,7 @@ function NavBar() {
   return (
     <div className='flex shadow-md'>
       <img className='w-14 h-14' src={portal_logo} alt="portal_logo"/>
-      <p className='font-Inter font-normal text-3xl mt-2 ml-12 absolute z-1'>
+      <p className='font-Inter font-normal text-3xl font mt-2 ml-12 absolute z-1'>
         ortal
       </p>
       <div className='ml-16 self-center'>

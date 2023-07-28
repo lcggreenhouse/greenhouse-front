@@ -15,10 +15,18 @@ module.exports = {
         'homePageButtonBackground': '#355DED'
       },
       width: {
-        '593': '593px'
+        '593': '593px',
+        '521': '521px',
+        '477': '477px',
+      },
+      height: {
+        '309': '309px'
       },
       borderRadius: {
         'searchBarRadius': '50px'
+      },
+      fontSize: {
+        '42px': '42px'
       }
     },
   },
