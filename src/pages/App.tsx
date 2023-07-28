@@ -241,29 +241,29 @@ function App() {
         <div className='flex items-start'>
           <div className='flex flex-col mr-28'>
             <p className='text-white font-Lato text-2xl font-extrabold mb-8'>Investors</p>
-            <p className='text-white font-Lato text-2xl font-medium mb-3'>Education Center</p>
-            <p className='text-white font-Lato text-2xl font-medium mb-3'>My Account</p>
-            <p className='text-white font-Lato text-2xl font-medium mb-3'>Other Thing</p>
-            <p className='text-white font-Lato text-2xl font-medium'>Report a Problem</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3 cursor-pointer'>Education Center</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3 cursor-pointer'>My Account</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3 cursor-pointer'>Other Thing</p>
+            <p className='text-white font-Lato text-2xl font-medium cursor-pointer'>Report a Problem</p>
           </div>
           <div className='flex flex-col mr-28'>
             <p className='text-white font-Lato text-2xl font-extrabold mb-8'>Partners</p>
-            <p className='text-white font-Lato text-2xl font-medium mb-3'>Requirements</p>
-            <p className='text-white font-Lato text-2xl font-medium mb-3'>Approved Law Firms</p>
-            <p className='text-white font-Lato text-2xl font-medium mb-3'>Support</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3 cursor-pointer'>Requirements</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3 cursor-pointer'>Approved Law Firms</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3 cursor-pointer'>Support</p>
           </div>
           <div className='flex flex-col mr-28'>
             <p className='text-white font-Lato text-2xl font-extrabold mb-8'>About Us</p>
-            <p className='text-white font-Lato text-2xl font-medium mb-3'>About Portal</p>
-            <p className='text-white font-Lato text-2xl font-medium mb-3'>Values</p>
-            <p className='text-white font-Lato text-2xl font-medium mb-3'>Ownership</p>
-            <p className='text-white font-Lato text-2xl font-medium'>Media</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3 cursor-pointer'>About Portal</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3 cursor-pointer'>Values</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3 cursor-pointer'>Ownership</p>
+            <p className='text-white font-Lato text-2xl font-medium cursor-pointer'>Media</p>
           </div>
           <div className='flex flex-col'>
             <p className='text-white font-Lato text-2xl font-extrabold mb-8'>Regulatory</p>
-            <p className='text-white font-Lato text-2xl font-medium mb-3'>SEC</p>
-            <p className='text-white font-Lato text-2xl font-medium mb-3'>Accessibility</p>
-            <p className='text-white font-Lato text-2xl font-medium mb-3'>Privacy</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3 cursor-pointer'>SEC</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3 cursor-pointer'>Accessibility</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3 cursor-pointer'>Privacy</p>
           </div>
         </div>
       </div>
