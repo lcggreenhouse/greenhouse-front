@@ -1,6 +1,8 @@
 import React from 'react'
 import HomeNavBar from './HomeNavBar'
 import placeholderHomeImage from '../assets/placeholderHomeImage.png'
+import circle from '../assets/circle.png'
+import arrow from '../assets/arrow.png'
 
 function App() {
   return (
@@ -84,11 +86,50 @@ function App() {
         </div>
       </div>
 
-      <div className='flex justify-center mt-48 bg-homePageProcessBackground h-447'>
-        <h1 className='font-Roboto text-6xl font-semibold mt-14'>
+      <div className='mt-48 bg-homePageProcessBackground h-447'>
+        <h1 className='flex justify-center font-Roboto text-6xl font-semibold pt-14'>
           Our Process
         </h1>
+        <div className='flex justify-center'>
+          <div>
+            <div className='flex items-center w-36 h-36 mt-20 mr-28 ml-28 mb-10'>
+              <img src={circle} alt="circle"/>
+              <img src={arrow} alt="arrow"/>
+            </div>
+            <p className='font-Roboto text-2xl font-semibold flex justify-center'>
+              Step 1
+            </p>
+          </div>
+          <div>
+            <div className='flex items-center w-36 h-36 mt-20 mr-28 ml-28 mb-10'>
+              <img src={circle} alt="circle"/>
+              <img src={arrow} alt="arrow"/>
+            </div>
+            <p className='font-Roboto text-2xl font-semibold flex justify-center'>
+              Step 2
+            </p>
+          </div>
+          <div>
+            <div className='flex items-center w-36 h-36 mt-20 mr-28 ml-28 mb-10'>
+              <img src={circle} alt="circle"/>
+              <img src={arrow} alt="arrow"/>
+            </div>
+            <p className='font-Roboto text-2xl font-semibold flex justify-center'>
+              Step 3
+            </p>
+          </div>
+          <div>
+            <div className='flex items-center w-36 h-36 mt-20 mr-28 ml-28 mb-10'>
+              <img src={circle} alt="circle"/>
+            </div>
+            <p className='font-Roboto text-2xl font-semibold flex justify-center'>
+              Step 4
+            </p>
+          </div>
+        </div>
       </div>
+
+      
     </div>
   );
 }
