@@ -3,6 +3,8 @@ import HomeNavBar from './HomeNavBar'
 import placeholderHomeImage from '../assets/placeholderHomeImage.png'
 import circle from '../assets/circle.png'
 import arrow from '../assets/arrow.png'
+import star from '../assets/star.png'
+import profilePic from '../assets/profilePic.png'
 
 function App() {
   return (
@@ -129,7 +131,142 @@ function App() {
         </div>
       </div>
 
-      
+      <div className='mt-48'>
+        <h1 className='flex justify-center font-Roboto text-6xl font-semibold'>Testimonial</h1>
+        <div className='flex justify-center'>
+          <div className='grid grid-cols-2 gap-16 mt-12'>
+            <div className='w-577 h-233 border rounded-testimonialRadius border-testimonialColor flex'>
+              <div>
+                <img className='w-20 h-20 mt-7 ml-7' src={profilePic} alt="profilePic"/>
+              </div>
+              <div className='mt-8 ml-4'>
+                <p className='font-Poppins text-lg font-bold text-testimonialColor'>
+                  Courtnet Henry
+                </p>
+                <p className='font-Poppins text-sm font-normal text-testimonialTextColor w-96'>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                </p>
+                <div className='flex mt-4'>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                </div>
+              </div>
+            </div>
+            <div className='w-577 h-233 border rounded-testimonialRadius border-testimonialColor flex'>
+              <div>
+                <img className='w-20 h-20 mt-7 ml-7' src={profilePic} alt="profilePic"/>
+              </div>
+              <div className='mt-8 ml-4'>
+                <p className='font-Poppins text-lg font-bold text-testimonialColor'>
+                  Courtnet Henry
+                </p>
+                <p className='font-Poppins text-sm font-normal text-testimonialTextColor w-96'>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                </p>
+                <div className='flex mt-4'>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                </div>
+              </div>
+            </div>
+            <div className='w-577 h-233 border rounded-testimonialRadius border-testimonialColor flex'>
+              <div>
+                <img className='w-20 h-20 mt-7 ml-7' src={profilePic} alt="profilePic"/>
+              </div>
+              <div className='mt-8 ml-4'>
+                <p className='font-Poppins text-lg font-bold text-testimonialColor'>
+                  Courtnet Henry
+                </p>
+                <p className='font-Poppins text-sm font-normal text-testimonialTextColor w-96'>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                </p>
+                <div className='flex mt-4'>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                </div>
+              </div>
+            </div>
+            <div className='w-577 h-233 border rounded-testimonialRadius border-testimonialColor flex'>
+              <div>
+                <img className='w-20 h-20 mt-7 ml-7' src={profilePic} alt="profilePic"/>
+              </div>
+              <div className='mt-8 ml-4'>
+                <p className='font-Poppins text-lg font-bold text-testimonialColor'>
+                  Courtnet Henry
+                </p>
+                <p className='font-Poppins text-sm font-normal text-testimonialTextColor w-96'>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                </p>
+                <div className='flex mt-4'>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                  <img className='w-4 h-4 mr-1' src={star} alt="star"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='mt-72 ml-72 mr-72 h-96 bg-homePageButtonBackground'>
+        <h1 className='flex justify-center pt-7 font-Lato text-5xl font-normal text-white'>
+          Learn More
+        </h1>
+        <div className=' flex flex-col items-center'>
+          <p className=' w-496 mt-7 mb-16 flex justify-center font-Lato text-2xl font-extrabold text-white text-center'>
+            Visit our Education Center for more resources on Ref CF and safe, informed investing.
+          </p>
+          <button className='w-521 h-16 font-Roboto text-xl font-semibold text-homePageButtonBackground bg-white rounded-searchBarRadius'>
+            Learn more about investing with Portal
+          </button>
+        </div>
+      </div>
+
+      <div className=' flex justify-center items-center h-96 mt-80 bg-homePageBottomBar'>
+        <div className='flex items-start'>
+          <div className='flex flex-col mr-28'>
+            <p className='text-white font-Lato text-2xl font-extrabold mb-8'>Investors</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3'>Education Center</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3'>My Account</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3'>Other Thing</p>
+            <p className='text-white font-Lato text-2xl font-medium'>Report a Problem</p>
+          </div>
+          <div className='flex flex-col mr-28'>
+            <p className='text-white font-Lato text-2xl font-extrabold mb-8'>Partners</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3'>Requirements</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3'>Approved Law Firms</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3'>Support</p>
+          </div>
+          <div className='flex flex-col mr-28'>
+            <p className='text-white font-Lato text-2xl font-extrabold mb-8'>About Us</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3'>About Portal</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3'>Values</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3'>Ownership</p>
+            <p className='text-white font-Lato text-2xl font-medium'>Media</p>
+          </div>
+          <div className='flex flex-col'>
+            <p className='text-white font-Lato text-2xl font-extrabold mb-8'>Regulatory</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3'>SEC</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3'>Accessibility</p>
+            <p className='text-white font-Lato text-2xl font-medium mb-3'>Privacy</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
