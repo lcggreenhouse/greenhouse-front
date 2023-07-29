@@ -1,0 +1,159 @@
+.homePageContainer1 {
+  @apply flex items-center justify-center mt-60;
+}
+
+.container1div {
+  @apply flex flex-col mr-7;
+}
+
+.container1h1 {
+  @apply text-42px font-Inter;
+}
+
+.container1button1 {
+  @apply text-xl font-Roboto font-semibold rounded-searchBarRadius text-white w-521 h-16 bg-homePageButtonBackground mt-5;
+}
+
+.container1button2 {
+  @apply text-xl font-Roboto font-semibold w-521 h-16 text-homePageButtonBackground border-2 rounded-searchBarRadius border-homePageButtonBackground mt-5;
+}
+
+.placeHolderImage {
+  @apply w-477 h-309;
+}
+
+.whyChooseUsh1 {
+  @apply mt-64 ml-80 text-5xl font-Roboto font-semibold;
+}
+
+.homePageContainer2 {
+  @apply mt-4 flex justify-center;
+}
+
+.container2gridDiv {
+  @apply grid grid-cols-2 gap-16 mt-12;
+}
+
+.gridInfodiv {
+  @apply bg-homePageGridBackground w-625 h-64 p-4;
+}
+
+.gridInfoh1 {
+  @apply font-Roboto text-xl font-semibold;
+}
+
+.gridInfop1 {
+  @apply font-Lato text-base font-extrabold mb-4;
+}
+
+.gridInfop2 {
+  @apply font-Roboto text-xs font-normal;
+}
+
+.gridInfop3 {
+  @apply font-Roboto text-xs font-normal mb-4;
+}
+
+.homePageContainer3 {
+  @apply mt-48 bg-homePageProcessBackground h-447;
+}
+
+.container3h1 {
+  @apply flex justify-center font-Roboto text-6xl font-semibold pt-14;
+}
+
+.processContainer {
+  @apply flex justify-center;
+}
+
+.circleContainer {
+  @apply flex items-center w-36 h-36 mt-20 mr-28 ml-28 mb-10;
+}
+
+.circleText {
+  @apply font-Roboto text-2xl font-semibold flex justify-center;
+}
+
+.homePageContainer4 {
+  @apply mt-48;
+}
+
+.container4h1 {
+  @apply flex justify-center font-Roboto text-6xl font-semibold;
+}
+
+.container4subContainer {
+  @apply flex justify-center;
+}
+
+.c4containergrid {
+  @apply grid grid-cols-2 gap-16 mt-12;
+}
+
+.testimonialContainer {
+  @apply w-577 h-233 border rounded-testimonialRadius border-testimonialColor flex;
+}
+
+.testimonialImage {
+  @apply w-20 h-20 mt-7 ml-7;
+}
+
+.testimonialTextContainer {
+  @apply mt-8 ml-4;
+}
+
+.testimonialTextContainerp1 {
+  @apply font-Poppins text-lg font-bold text-testimonialColor;
+}
+
+.testimonialTextContainerp2 {
+  @apply font-Poppins text-sm font-normal text-testimonialTextColor w-96;
+}
+
+.starsContainer {
+  @apply flex mt-4;
+}
+
+.starImage {
+  @apply w-4 h-4 mr-1;
+}
+
+.homePageContainer5 {
+  @apply mt-72 ml-72 mr-72 h-96 bg-homePageButtonBackground;
+}
+
+.container5h1 {
+  @apply flex justify-center pt-7 font-Lato text-5xl font-normal text-white;
+}
+
+.container5TextContainer {
+  @apply flex flex-col items-center;
+}
+
+.container5TextContainerp {
+  @apply w-496 mt-7 mb-16 flex justify-center font-Lato text-2xl font-extrabold text-white text-center;
+}
+
+.container5TextContainerButton {
+  @apply w-521 h-16 font-Roboto text-xl font-semibold text-homePageButtonBackground bg-white rounded-searchBarRadius;
+}
+
+.homePageContainer6 {
+  @apply flex justify-center items-center h-96 mt-80 bg-homePageBottomBar;
+}
+
+.container6subContainer {
+  @apply flex items-start;
+}
+
+.container6div {
+  @apply flex flex-col mr-28;
+}
+
+.container6p1 {
+  @apply text-white font-Lato text-2xl font-extrabold mb-8;
+}
+
+.container6p2 {
+  @apply text-white font-Lato text-2xl font-medium mb-3 cursor-pointer;
+}

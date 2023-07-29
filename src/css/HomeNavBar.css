@@ -1,0 +1,31 @@
+.homeNavBarContainer {
+  @apply flex shadow-md;
+}
+
+.portalLogo {
+  @apply w-14 h-14;
+}
+
+.portalLogoText {
+  @apply font-Inter font-normal text-3xl mt-2 ml-12 absolute z-10;
+}
+
+.searchBarContainer {
+  @apply ml-16 self-center;
+}
+
+.searchIcon {
+  @apply absolute w-5 h-5 mt-3 ml-3 cursor-pointer;
+}
+
+.searchInput {
+  @apply bg-searchBackground pl-12 pr-3 py-2 w-593 h-10 rounded-searchBarRadius font-Roboto;
+}
+
+.loginButton {
+  @apply font-Roboto ml-auto mr-4;
+}
+
+.signupButton {
+ @apply font-Roboto text-white font-semibold bg-homePageButtonBackground w-64 h-10 self-center rounded-searchBarRadius mr-4;
+}
