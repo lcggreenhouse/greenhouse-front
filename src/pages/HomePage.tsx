@@ -61,15 +61,9 @@ function homePageBottomBar(header: string, items: string[]) {
 function gridInfo(header: string, subHeader: string, paragraph: string) {
   return (
     <div className='gridInfodiv'>
-      <h1 className='gridInfoh1'>
-        {header}
-      </h1>
-      <p className='gridInfop1'>
-        {subHeader}
-      </p>
-      <p className='gridInfop2'>
-        {paragraph}
-      </p>
+      <h1 className='gridInfoh1'>{header}</h1>
+      <p className='gridInfop1'>{subHeader}</p>
+      <p className='gridInfop2'>{paragraph}</p>
     </div>
   )
 }
@@ -77,21 +71,11 @@ function gridInfo(header: string, subHeader: string, paragraph: string) {
 function gridInfoExtra(header: string, subHeader: string, p1: string, p2: string, p3: string) {
   return (
     <div className='gridInfodiv'>
-      <h1 className='gridInfoh1'>
-        {header}
-      </h1>
-      <p className='gridInfop1'>
-        {subHeader}
-      </p>
-      <p className='gridInfop3'>
-        {p1}
-      </p>
-      <p className='gridInfop3'>
-        {p2}
-      </p>
-      <p className='gridInfop2'>
-        {p3}
-      </p>
+      <h1 className='gridInfoh1'>{header}</h1>
+      <p className='gridInfop1'>{subHeader}</p>
+      <p className='gridInfop3'>{p1}</p>
+      <p className='gridInfop3'>{p2}</p>
+      <p className='gridInfop2'>{p3}</p>
     </div>
   )
 }
