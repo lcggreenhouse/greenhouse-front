@@ -6,6 +6,7 @@ import arrow from '../assets/arrow.png'
 import star from '../assets/star.png'
 import profilePic from '../assets/profilePic.png'
 import '../css/HomePage.css'
+import { useNavigate } from 'react-router-dom'
 
 function circleContainer(step: string,  showArrow: boolean) {
   return (
@@ -81,6 +82,7 @@ function gridInfoExtra(header: string, subHeader: string, p1: string, p2: string
 }
 
 function HomePage() {
+  const navigate = useNavigate()
   return (
     <div>
       <HomeNavBar />
@@ -90,7 +92,7 @@ function HomePage() {
           <h1 className='container1h1'>
             Get in on the ground floor.
           </h1>
-          <button className='container1button1'>
+          <button className='container1button1' onClick={() => navigate('SignUp')}>
             Invest in your community with Portal
           </button>
           <button className='container1button2'>

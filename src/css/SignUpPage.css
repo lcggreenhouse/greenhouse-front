@@ -1,0 +1,119 @@
+.signUpContainer {
+  @apply w-full h-full inline-flex;
+}
+
+.backContainer {
+ @apply absolute w-full;
+}
+
+.backArrow {
+  @apply ml-auto mr-32 w-7 h-5 mt-10 cursor-pointer;
+}
+
+.backText {
+  @apply ml-auto w-24 flex justify-center mr-8 -mt-8 text-backColor font-Lato font-normal text-4xl cursor-pointer;
+}
+
+.leftBar {
+  @apply border-4 border-white w-460 h-screen bg-signUpLeftBarBackground;
+}
+
+.portalLogo {
+  @apply w-14 h-14 ml-1 mt-2;
+}
+
+.leftBarHeader {
+  @apply flex justify-center text-4xl text-white font-Lato mt-20 font-normal;
+}
+
+.leftBarP {
+  @apply text-center font-Lato text-3xl font-normal mt-10 text-white;
+}
+
+.privacyLink {
+  @apply flex mt-20 justify-center text-white font-extrabold text-2xl font-Lato underline cursor-pointer;
+}
+
+.infoQuestion {
+  @apply flex mt-2 justify-center text-white font-extrabold text-2xl font-Lato underline cursor-pointer;
+}
+
+.leftBarPersonImage {
+  @apply absolute ml-12 bottom-0 w-80 h-96;
+}
+
+.createAccountForm {
+  @apply ml-52 mt-36;
+}
+
+.formHeader {
+  @apply font-Roboto text-6xl font-bold;
+}
+
+.loginText {
+  @apply text-formLightColor font-Roboto text-xl font-thin;
+}
+
+.loginButton {
+  @apply text-loginColor;
+}
+
+.formData {
+  @apply grid grid-cols-2 gap-16 mt-11;
+}
+
+.inputFieldName {
+  @apply text-formFieldNameColor font-Lato font-normal text-sm;
+}
+
+.inputField {
+  @apply w-80 h-10 rounded-md border border-formLightColor pl-2;
+}
+
+.createValidation {
+  @apply flex flex-col mt-20;
+}
+
+.checkBox {
+  @apply w-5 h-5;
+}
+
+.rememberMe {
+  @apply ml-4 text-formFieldNameColor font-normal text-sm font-Poppins;
+}
+
+.rememberMeButton {
+  @apply text-homePageButtonBackground font-normal text-sm font-Poppins;
+}
+
+.inputLabel {
+  @apply mb-4
+}
+
+.submitButtons {
+  @apply mt-4;
+}
+
+.createAccount {
+  @apply w-96 h-12 rounded-3xl bg-blue-500 font-Lato text-base font-bold text-white;
+}
+
+.createAccountDisabled {
+  @apply w-96 h-12 rounded-3xl bg-gray-500 font-Lato text-base font-bold text-white cursor-default;
+}
+
+.googleButton {
+  @apply flex items-center ml-96 -mt-12
+}
+
+.googleIcon {
+  @apply absolute w-5 h-5 ml-32;
+}
+
+.signInWithGoogle {
+  @apply w-96 h-12 ml-8 pl-8 bg-googleButton rounded-3xl font-Poppins text-sm text-white font-semibold;
+}
+
+.passwordMatch {
+  @apply text-red-600 font-Lato font-normal text-sm;
+}

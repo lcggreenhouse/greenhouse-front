@@ -19,7 +19,14 @@ module.exports = {
         'homePageProcessBackground': '#F5F5F5',
         'testimonialColor': '#6D91EE',
         'testimonialTextColor': '#22366A',
-        'homePageBottomBar': '#3E454F'
+        'homePageBottomBar': '#3E454F',
+        'signUpLeftBarBackground': '#5687E7',
+        'formLightColor': '#808080',
+        'loginColor': '#2D56EA',
+        'formBorderColor': '#D1D1D1',
+        'formFieldNameColor': '#2D3748',
+        'backColor': '#3573ED',
+        'googleButton': '#2D3748'
       },
       width: {
         '625': '625px',
@@ -28,12 +35,14 @@ module.exports = {
         '477': '477px',
         '1512': '1512px',
         '577': '577px',
-        '496': '496px'
+        '496': '496px',
+        '460': '460px'
       },
       height: {
         '309': '309px',
         '447': '447px',
-        '233': '233px'
+        '233': '233px',
+        '400': '400px'
       },
       borderRadius: {
         'searchBarRadius': '50px',
