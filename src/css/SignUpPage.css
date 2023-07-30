@@ -43,7 +43,7 @@
 }
 
 .createAccountForm {
-  @apply ml-52 mt-36;
+  @apply flex flex-col justify-center m-auto;
 }
 
 .formHeader {

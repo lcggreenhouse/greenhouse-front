@@ -1,10 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import './index.css';
-import HomePage from './pages/HomePage';
-import reportWebVitals from './reportWebVitals';
-import SignUpPage from './pages/SignUpPage';
+import './index.css'
+import HomePage from './pages/HomePage'
+import reportWebVitals from './reportWebVitals'
+import SignUpPage from './pages/SignUpPage'
+import EmailVerification from './pages/EmailVerification'
 
 export default function App() {
   return(
@@ -12,6 +13,7 @@ export default function App() {
       <Routes>
         <Route path='/' element={<HomePage />}/>
         <Route path='/SignUp' element={<SignUpPage />}/>
+        <Route path='/EmailVerification' element={<EmailVerification />}/>
       </Routes>
     </BrowserRouter>
   )

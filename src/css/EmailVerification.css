@@ -1,0 +1,75 @@
+.emailVerificationContainer {
+  @apply w-full h-full inline-flex;
+}
+
+.backContainer {
+  @apply absolute w-full;
+ }
+ 
+ .backArrow {
+   @apply ml-auto mr-32 w-7 h-5 mt-10 cursor-pointer;
+ }
+ 
+ .backText {
+   @apply ml-auto w-24 flex justify-center mr-8 -mt-8 text-backColor font-Lato font-normal text-4xl cursor-pointer;
+ }
+
+ .leftBar {
+  @apply border-4 border-white w-460 h-screen bg-signUpLeftBarBackground;
+}
+
+.portalLogo {
+  @apply w-14 h-14 ml-1 mt-2;
+}
+
+.leftBarHeader {
+  @apply flex justify-center text-4xl text-white font-Lato mt-20 font-normal;
+}
+
+.leftBarP {
+  @apply text-center font-Lato text-3xl font-normal mt-10 text-white;
+}
+
+.emailVerifyForm {
+  @apply flex flex-col justify-center items-center m-auto;
+}
+
+.emailImage {
+  @apply w-60 h-60;
+}
+
+.emailP {
+  @apply font-Montserrat text-emailVerificationText font-bold text-2xl mt-10;
+}
+
+.emailSend {
+  @apply text-emailVerificationText  font-Lato font-bold mt-6;
+}
+
+.emailAuthCode {
+  @apply mt-10 ml-6;
+}
+
+.email {
+  @apply text-black font-bold;
+}
+
+.inputCode {
+  @apply w-16 mr-6 border-0 border-b-2 border-emailCodeInputColor focus:outline-none text-center font-Lato text-2xl font-normal;
+}
+
+.checkCodeP {
+  @apply text-emailVerificationCheckP text-sm font-normal font-Lato text-center mt-10;
+}
+
+.checkCodeButton {
+  @apply underline text-emailResendColor;
+}
+
+.checkCodeMainButton {
+  @apply w-744 h-16 bg-emailVerificationContinue text-white font-Roboto font-medium text-3xl rounded-searchBarRadius mt-32;
+}
+
+.checkCodeMainButtonDisabled {
+  @apply w-744 h-16 bg-gray-500 text-white font-Roboto font-medium text-3xl rounded-searchBarRadius mt-32 cursor-default;
+}

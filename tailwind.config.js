@@ -10,7 +10,8 @@ module.exports = {
         Inter: ['"Inter"', ...defaultTheme.fontFamily.sans],
         Roboto: ['"Roboto"', ...defaultTheme.fontFamily.sans],
         Lato: ['"Lato"', ...defaultTheme.fontFamily.sans],
-        Poppins: ['"Poppins"', ...defaultTheme.fontFamily.sans]
+        Poppins: ['"Poppins"', ...defaultTheme.fontFamily.sans],
+        Montserrat: ['"Montserrat"', ...defaultTheme.fontFamily.sans]
       },
       colors: {
         'searchBackground': '#EFF4F9',
@@ -26,7 +27,13 @@ module.exports = {
         'formBorderColor': '#D1D1D1',
         'formFieldNameColor': '#2D3748',
         'backColor': '#3573ED',
-        'googleButton': '#2D3748'
+        'googleButton': '#2D3748',
+        'emailVerificationText': '#5B5B5B',
+        'emailVerificationColor': '#3A3A3A',
+        'emailCodeInputColor': '#2743FD',
+        'emailVerificationContinue': '#355DED',
+        'emailVerificationCheckP': '#B9B9B9',
+        'emailResendColor': '#1D3BFF'
       },
       width: {
         '625': '625px',
@@ -36,7 +43,8 @@ module.exports = {
         '1512': '1512px',
         '577': '577px',
         '496': '496px',
-        '460': '460px'
+        '460': '460px',
+        '744': '744px'
       },
       height: {
         '309': '309px',

@@ -124,7 +124,7 @@ function SignUpPage() {
 
         <div className='submitButtons'>
           {firstName !== '' && lastName !== '' && email !== '' && location !== '' && password !== '' && validatePassword !== '' && password === validatePassword && termsAgree !== false ? (
-            <button className='createAccount' onClick={() => console.log(firstName)}>Create account</button>
+            <button className='createAccount' onClick={() => navigate('/EmailVerification', {state: {email}})}>Create account</button>
           ) : (
             <button className='createAccountDisabled'>Create account</button>
           )}
