@@ -33,7 +33,8 @@ module.exports = {
         'emailCodeInputColor': '#2743FD',
         'emailVerificationContinue': '#355DED',
         'emailVerificationCheckP': '#B9B9B9',
-        'emailResendColor': '#1D3BFF'
+        'emailResendColor': '#1D3BFF',
+        'interestBlockColor': '#888484'
       },
       width: {
         '625': '625px',

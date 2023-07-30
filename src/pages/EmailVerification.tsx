@@ -8,6 +8,7 @@ import { useLocation, useNavigate } from 'react-router-dom'
 
 function EmailVerification() {
   const location = useLocation()
+  const email = location.state.email
   const navigate = useNavigate()
   const [verifyCode, setVerifyCode] = useState(false)
   const inputsRef = useRef<HTMLInputElement[]>([])
@@ -59,7 +60,7 @@ function EmailVerification() {
       <div className='emailVerifyForm'>
         <img className='emailImage' src={emailVerificationImage} alt='emailVerificationImage' />
         <p className='emailP'>Email Verification</p>
-        <p className='emailSend'>Enter the code sent to <span className='email'>{location.state.email}</span></p>
+        <p className='emailSend'>Enter the code sent to <span className='email'>{email}</span></p>
 
         <div className='emailAuthCode'>
           <input
@@ -98,7 +99,7 @@ function EmailVerification() {
         <div className='checkCode'>
           <p className='checkCodeP'>Didn't receive the email? <span><button className='checkCodeButton'>Resend email</button></span></p>
           {verifyCode ? (
-            <button className='checkCodeMainButton'>Continue</button>
+            <button className='checkCodeMainButton' onClick={() => navigate('/InvestmentInterests', {state: {email}})}>Continue</button>
           ) : (
             <button className='checkCodeMainButtonDisabled'>Continue</button>
           )}

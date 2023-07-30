@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import portal_logo from '../assets/portal_logo.png'
 import personImage from '../assets/personImage.png'
 import BackArrow from '../assets/BackArrow.png'

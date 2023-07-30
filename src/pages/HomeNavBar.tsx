@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import portal_logo from '../assets/portal_logo.png'
 import search_icon from '../assets/search_icon.png'
 import '../css/HomeNavBar.css'
