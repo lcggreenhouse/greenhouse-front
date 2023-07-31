@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals'
 import SignUpPage from './pages/SignUpPage'
 import EmailVerification from './pages/EmailVerification'
 import InvestmentInterests from './pages/InvestmentInterests'
+import InvestorHomePage from './pages/InvestorHomePage'
 
 export default function App() {
   return(
@@ -16,6 +17,7 @@ export default function App() {
         <Route path='/SignUp' element={<SignUpPage />}/>
         <Route path='/EmailVerification' element={<EmailVerification />}/>
         <Route path='/InvestmentInterests' element={<InvestmentInterests />}/>
+        <Route path='/InvestorHomePage' element={<InvestorHomePage />}/>
       </Routes>
     </BrowserRouter>
   )

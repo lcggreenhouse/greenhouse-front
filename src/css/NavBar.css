@@ -1,5 +1,5 @@
 .navBarContainer {
-  @apply flex shadow-md;
+  @apply flex relative shadow-md;
 }
 
 .portalLogo {

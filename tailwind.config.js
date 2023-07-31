@@ -37,7 +37,9 @@ module.exports = {
         'emailVerificationContinue': '#355DED',
         'emailVerificationCheckP': '#B9B9B9',
         'emailResendColor': '#1D3BFF',
-        'interestBlockColor': '#888484'
+        'interestBlockColor': '#888484',
+        'investorHomeLeftSideBackground': '#EFF4F9',
+        'raisesBlockTextColor': '#A1A1A1'
       },
       width: {
         '625': '625px',
@@ -49,6 +51,7 @@ module.exports = {
         '496': '496px',
         '460': '460px',
         '744': '744px',
+        '705': '705px',
         '41.855': '41.855px'
       },
       height: {
@@ -56,6 +59,7 @@ module.exports = {
         '447': '447px',
         '233': '233px',
         '400': '400px',
+        '309': '309px',
         '38.521': '38.521px'
       },
       borderRadius: {
@@ -63,7 +67,9 @@ module.exports = {
         'testimonialRadius': '40px'
       },
       fontSize: {
-        '42px': '42px'
+        '42px': '42px',
+        '8px': '8px',
+        '9px': '9px'
       }
     },
   },

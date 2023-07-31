@@ -58,7 +58,7 @@ function InvestmentInterests() {
         </div>
         <div className='interestsContinue'>
           {selectedInterests.length >= 3 ? (
-            <button className='interestsButton' onClick={() => console.log(selectedInterests)}>Continue</button>
+            <button className='interestsButton' onClick={() => navigate('/InvestorHomePage')}>Continue</button>
           ) : (
             <button className='interestsButtonDisabled'>Continue</button>
           )}
