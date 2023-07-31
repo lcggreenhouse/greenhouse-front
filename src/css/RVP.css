@@ -1,0 +1,35 @@
+.RVPContainer {
+  @apply w-full h-full;
+}
+
+.RVPTop {
+  @apply w-screen h-[calc(100vh-64px)];
+}
+
+.RVPTopImage {
+  @apply w-screen h-4/5;
+}
+
+.RVPTopCard {
+  @apply absolute w-460 h-2/3 bg-white top-28 right-32 border-2 border-black
+}
+
+.RVPCardHeader {
+  @apply flex justify-center font-Roboto text-5xl font-bold text-center mt-14 ml-2 mr-2;
+}
+
+.RVPCardHeader2 {
+  @apply flex justify-center font-Roboto text-4xl font-bold text-center mt-14 ml-2 mr-2;
+}
+
+.RVPCardP1 {
+  @apply font-Roboto text-base font-normal ml-16 mt-10;
+}
+
+.RVPCardP {
+  @apply font-Roboto text-base font-normal ml-16;
+}
+
+.RVPCardP3 {
+  @apply text-homePageButtonBackground font-Roboto text-base font-semibold ml-16;
+}

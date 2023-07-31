@@ -8,6 +8,7 @@ import SignUpPage from './pages/SignUpPage'
 import EmailVerification from './pages/EmailVerification'
 import InvestmentInterests from './pages/InvestmentInterests'
 import InvestorHomePage from './pages/InvestorHomePage'
+import RVP from './pages/RVP'
 
 export default function App() {
   return(
@@ -18,6 +19,7 @@ export default function App() {
         <Route path='/EmailVerification' element={<EmailVerification />}/>
         <Route path='/InvestmentInterests' element={<InvestmentInterests />}/>
         <Route path='/InvestorHomePage' element={<InvestorHomePage />}/>
+        <Route path='/RVP' element={<RVP />}/>
       </Routes>
     </BrowserRouter>
   )

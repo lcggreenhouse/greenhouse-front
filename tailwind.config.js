@@ -60,7 +60,9 @@ module.exports = {
         '233': '233px',
         '400': '400px',
         '309': '309px',
-        '38.521': '38.521px'
+        '38.521': '38.521px',
+        '966': '966px',
+        '673': '630px'
       },
       borderRadius: {
         'searchBarRadius': '50px',
