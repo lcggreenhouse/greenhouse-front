@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      margin: {
+        '52px': '52px'
+      },
       fontFamily: {
         Inter: ['"Inter"', ...defaultTheme.fontFamily.sans],
         Roboto: ['"Roboto"', ...defaultTheme.fontFamily.sans],
@@ -45,13 +48,15 @@ module.exports = {
         '577': '577px',
         '496': '496px',
         '460': '460px',
-        '744': '744px'
+        '744': '744px',
+        '41.855': '41.855px'
       },
       height: {
         '309': '309px',
         '447': '447px',
         '233': '233px',
-        '400': '400px'
+        '400': '400px',
+        '38.521': '38.521px'
       },
       borderRadius: {
         'searchBarRadius': '50px',

@@ -1,4 +1,4 @@
-.homeNavBarContainer {
+.navBarContainer {
   @apply flex shadow-md;
 }
 
@@ -22,14 +22,18 @@
   @apply bg-searchBackground pl-12 pr-3 py-2 w-593 h-10 rounded-searchBarRadius font-Roboto;
 }
 
-.rightSideButtons {
-  @apply ml-auto mr-4 pt-3;
+.accountInfo {
+  @apply flex ml-auto mr-6 mt-2;
 }
 
-.loginButton {
-  @apply font-Roboto mr-4;
+.bellIcon {
+  @apply w-10 h-10 cursor-pointer;
 }
 
-.signupButton {
- @apply font-Roboto text-white font-semibold bg-homePageButtonBackground w-64 h-10 self-center rounded-searchBarRadius;
+.settingsIcon {
+  @apply w-7 h-7 mt-2 ml-2 cursor-pointer;
+}
+
+.userProfileImage {
+ @apply w-14 h-12 ml-4 cursor-pointer
 }

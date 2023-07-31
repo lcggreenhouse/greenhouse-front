@@ -1,9 +1,12 @@
 import { useState } from 'react'
 import portal_logo from '../assets/portal_logo.png'
 import search_icon from '../assets/search_icon.png'
-import '../css/HomeNavBar.css'
+import bellIcon from '../assets/bellIcon.png'
+import settingsIcon from '../assets/settingsIcon.png'
+import userProfileImage from '../assets/userProfileImage.png'
+import '../css/NavBar.css'
 
-function HomeNavBar() {
+function NavBar() {
   const [searchQuery, setSearchQuery] = useState('')
 
   const handleSearchQueryChange = (value: string) => {
@@ -11,7 +14,7 @@ function HomeNavBar() {
   }
 
   return (
-    <div className='homeNavBarContainer'>
+    <div className='navBarContainer'>
       <img className='portalLogo' src={portal_logo} alt='portal_logo'/>
       <p className='portalLogoText'>
         ortal
@@ -27,16 +30,13 @@ function HomeNavBar() {
           onChange={e => handleSearchQueryChange(e.target.value)}
         />
       </div>
-      <div className='rightSideButtons'>
-        <button className='loginButton'>
-          Log In
-        </button>
-        <button className='signupButton'>
-          Invest with Portal
-        </button>
+      <div className='accountInfo'>
+        <img className='bellIcon' src={bellIcon} alt='bellIcon' />
+        <img className='settingsIcon' src={settingsIcon} alt='settingsIcon' />
+        <img className='userProfileImage' src={userProfileImage} alt='userProfileImage' />
       </div>
     </div>
   )
 }
 
-export default HomeNavBar
+export default NavBar
